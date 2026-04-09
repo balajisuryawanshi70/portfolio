@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-white/10 shadow-md">
       
-      <div className="max-w-7xl mx-auto px-1 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-1 py-6 flex justify-between items-center">
         
         {/* Logo */}
         <a href="#" className="text-2xl md:text-3xl font-bold text-white flex items-center gap-2">
@@ -19,7 +19,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
+        <div className="hidden md:flex items-center space-x-8 text-xl font-medium">
           {["Home", "About", "Skills", "Projects", "Experience", "Contact"].map((item) => (
             <a
               key={item}

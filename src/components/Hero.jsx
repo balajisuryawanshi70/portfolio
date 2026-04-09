@@ -62,7 +62,7 @@ const Hero = () => {
         {/* LEFT CONTENT */}
         <div className="md:w-1/2 text-center md:text-left">
 
-          <p className="text-indigo-400 font-medium mb-3 tracking-wide">
+          <p className="text-indigo-400 font-medium mb-3 tracking-wide text-2xl">
             👋 Welcome to my portfolio
           </p>
 
@@ -79,7 +79,7 @@ const Hero = () => {
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg">
             I build scalable and high-performance web applications using modern
-            technologies like React, Node.js, and MongoDB.
+            technologies like React, Node.js, Express.js and MongoDB.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
