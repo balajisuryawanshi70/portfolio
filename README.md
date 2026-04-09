@@ -16,9 +16,9 @@ Variant → JavaScript
 
 ## 📦 3. Install Dependencies
 npm install
-Install additional packages: \n
-npm install react-router-dom \n
-npm install react-icons \n
+Install additional packages: 
+npm install react-router-dom,
+npm install react-icons,
 npm install framer-motion
 
 ## ▶️ 4. Run the Project
