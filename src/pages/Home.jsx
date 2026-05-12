@@ -9,12 +9,12 @@ import Contact from '../components/Contact'
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Work/>
-      <Contact/>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Work />
+      <Contact />
     </div>
   )
 }

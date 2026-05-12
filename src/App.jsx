@@ -7,11 +7,11 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
