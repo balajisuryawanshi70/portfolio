@@ -1,13 +1,14 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
+import projectImg1 from '../assets/project_1.avif';
+import projectImg2 from '../assets/project_2.avif';
 import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
 import profileImg7 from '../assets/profile1.avif'
+
 
 
 export const assets = {
@@ -81,22 +82,22 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "Code-GPT",
+    description: "AI-powered coding assistant built using React and Gemini API.",
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    demo: "https://code-gpt-seven-omega.vercel.app/",
+    code: "https://github.com/balajisuryawanshi70/CodeGPT",
   },
   {
-    title: "Task Management App",
+    title: "My-Portfolio",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
+    tech: ["React", "Express.js", "Tailwind CSS"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://my-portfolio-project-mern.vercel.app/",
+    code: "https://github.com/balajisuryawanshi70/portfolio",
   },
   {
     title: "Fitness Tracker",
@@ -111,10 +112,10 @@ export const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://my-portfolio-project-mern.vercel.app/",
+    code: "https://github.com/balajisuryawanshi70/portfolio",
   },
   {
     title: "Chat App",

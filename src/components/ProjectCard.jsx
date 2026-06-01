@@ -1,7 +1,14 @@
 import React from 'react'
 import { FaArrowRight, FaGithub } from 'react-icons/fa'
 
-const ProjectCard = ({ title, description, image, tech }) => {
+const ProjectCard = ({ 
+  title, 
+  description, 
+  image, 
+  tech,
+  demo,
+  code
+}) => {
   return (
     <div className="group bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden shadow-lg hover:border-indigo-400 hover:-translate-y-2 transition-all duration-300">
 
@@ -45,7 +52,9 @@ const ProjectCard = ({ title, description, image, tech }) => {
         {/* Buttons */}
         <div className="flex gap-3">
           <a
-            href="#"
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-indigo-500 hover:bg-indigo-600 text-white font-medium transition duration-300 shadow-md shadow-indigo-500/20"
           >
             Live Demo
@@ -53,7 +62,9 @@ const ProjectCard = ({ title, description, image, tech }) => {
           </a>
 
           <a
-            href="#"
+            href={code}
+            target='_blank'
+            rel='nooper noreferrer'
             className="flex items-center justify-center px-4 py-3 rounded-lg border border-white/10 text-gray-300 hover:border-indigo-400 hover:text-white transition duration-300"
           >
             <FaGithub className="text-lg" />
