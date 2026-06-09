@@ -3,7 +3,7 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 
 import projectImg1 from '../assets/project_1.avif';
 import projectImg2 from '../assets/project_2.avif';
-import projectImg3 from '../assets/project3.avif';
+import projectImg3 from '../assets/project_3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
@@ -100,13 +100,13 @@ export const projects = [
     code: "https://github.com/balajisuryawanshi70/portfolio",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "EventX",
+    description: "EventX is a full-stack Event Management Platform built using the MERN stack.",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: ["React", "Node.js", "MongoDB", "ExpressJS"],
     icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://event-x-mern.vercel.app/",
+    code: "https://github.com/balajisuryawanshi70/EventX-Mern",
   },
   {
     title: "Portfolio Website",
