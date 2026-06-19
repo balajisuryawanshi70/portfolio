@@ -4,7 +4,7 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 import projectImg1 from '../assets/project_1.avif';
 import projectImg2 from '../assets/project_2.avif';
 import projectImg3 from '../assets/project_3.avif';
-import projectImg4 from '../assets/project4.avif';
+import projectImg4 from '../assets/project_4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
 import profileImg7 from '../assets/profile1.avif'
@@ -109,13 +109,13 @@ export const projects = [
     code: "https://github.com/balajisuryawanshi70/EventX-Mern",
   },
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    title: "Todo Manager",
+    description: "A modern MERN Stack Task Management Application with JWT Authentication, Redux Toolkit, TypeScript, Tailwind CSS, Task Priorities, Due Dates, Profile Management.",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    tech: ["Redux", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
-    demo: "https://my-portfolio-project-mern.vercel.app/",
-    code: "https://github.com/balajisuryawanshi70/portfolio",
+    demo: "https://todo-mern-proj.vercel.app",
+    code: "https://github.com/balajisuryawanshi70/Todo-Mern-Proj",
   },
   {
     title: "Chat App",
