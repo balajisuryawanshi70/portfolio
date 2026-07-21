@@ -5,7 +5,7 @@ import projectImg1 from '../assets/project_1.avif';
 import projectImg2 from '../assets/project_2.avif';
 import projectImg3 from '../assets/project_3.avif';
 import projectImg4 from '../assets/project_4.avif';
-import projectImg5 from '../assets/project5.avif';
+import projectImg5 from '../assets/project_5.avif';
 import projectImg6 from '../assets/project6.avif';
 import profileImg7 from '../assets/profile1.avif'
 
@@ -118,13 +118,13 @@ export const projects = [
     code: "https://github.com/balajisuryawanshi70/Todo-Mern-Proj",
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    title: "Eshop",
+    description: "E-Shop is a full-stack MERN e-commerce web application that enables users to browse products, search by category, add items to their cart, manage orders, and enjoy a responsive shopping experience.",
     image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+    tech: ["Razorpay", "React", "Node.js", "MongoDB"],
     icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
+    demo: "https://eshop-mern-4klq.vercel.app/",
+    code: "https://eshop-mern-4klq.vercel.app/",
   },
   {
     title: "AI Image Generator",
