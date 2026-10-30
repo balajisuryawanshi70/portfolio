@@ -141,15 +141,15 @@ export const projects = [
 export const workData = [
   {
     role: "Full Stack Developer",
-    company: "Softcadd Technologies",
-    duration: "2025 - Present",
+    company: "Codereach Software Pvt. Ltd.",
+    duration: "2023 - Present",
     description:
       "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
     color: "purple"
   },
   {
     role: "Web Developer",
-    company: "Softcadd Technologies",
+    company: "Codereach Software Pvt. Ltd.",
     duration: "2024 - 2025",
     description:
       "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
@@ -157,7 +157,7 @@ export const workData = [
   },
   {
     role: "Junior Developer",
-    company: "Softcadd Technologies",
+    company: "Codereach Software Pvt. Ltd.",
     duration: "2023 - 2024",
     description:
       "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
